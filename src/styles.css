@@ -1,0 +1,23 @@
+body {
+    background-color: rgb(60, 218, 32);
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    margin: 20px;
+    color: rgb(31, 33, 43);
+}
+
+div {
+    padding: 15px;
+    margin: 10px;
+}
+
+.dev-cls {
+    background-color: rgb(57, 61, 91);
+    font-size: 15px;
+    color: whitesmoke;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

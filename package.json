@@ -1,0 +1,40 @@
+{
+  "name": "module_e13",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-prod": "webpack --config webpack.prod.js",
+    "build-dev": "webpack --config webpack.dev.js",
+    "start": "webpack serve --open --config webpack.dev.js",
+    "lint": "eslint --debug src/ --fix",
+    "json-server": "json-server --watch database.json",
+    "prepare": "husky install",
+    "stylelint": "stylelint src/*.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@eslint/js": "^9.23.0",
+    "css-loader": "^7.1.2",
+    "css-minimizer-webpack-plugin": "^7.0.2",
+    "eslint": "^9.23.0",
+    "eslint-webpack-plugin": "^5.0.0",
+    "globals": "^16.0.0",
+    "husky": "^9.1.7",
+    "mini-css-extract-plugin": "^2.9.2",
+    "style-loader": "^4.0.0",
+    "stylelint": "^16.17.0",
+    "stylelint-config-standard": "^37.0.0",
+    "stylelint-webpack-plugin": "^5.0.1",
+    "terser-webpack-plugin": "^5.3.14",
+    "webpack": "^5.98.0",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.1"
+  },
+  "dependencies": {
+    "html-webpack-plugin": "^5.6.3",
+    "path": "^0.12.7"
+  }
+}

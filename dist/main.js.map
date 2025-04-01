@@ -1,0 +1,1 @@
+{"version":3,"file":"main.js","mappings":"mBAEAA,SAASC,MAAM,mCACfD,SAASC,MAAM,2B","sources":["webpack://module_e13/./src/index.js"],"sourcesContent":["import './styles.css'\r\n\r\ndocument.write('Hello, world and everyone! \\n\\n');\r\ndocument.write('It is test dev-server \\n');"],"names":["document","write"],"sourceRoot":""}
